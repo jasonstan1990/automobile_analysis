@@ -6,7 +6,7 @@ import os
 
 # Load the dataset from the 'automobile' folder within your project
 # Assuming 'Automobile.csv' is in a folder named 'automobile' in your project directory
-df = pd.read_csv(os.path.join('automobile_analysis', 'Automobile.csv'))
+df = pd.read_csv('Automobile.csv')
 
 # Set up the page
 st.title("Automobile Dataset Analysis")
